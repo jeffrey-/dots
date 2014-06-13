@@ -12,11 +12,15 @@ set encoding=utf-8
 set undofile
 
 
-hi Folded ctermfg=4
-hi Folded ctermbg=0
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview 
+"hi Folded ctermfg=4
+"hi Folded ctermbg=0
+"autocmd BufWinLeave *.* mkview
+"autocmd BufWinEnter *.* silent loadview 
 
+
+if has("gui_running")
+    colorscheme terminal
+endif
 
 
 
