@@ -1,4 +1,6 @@
 ./*
 !.gitignore
 !.vimrc
+!.vim/colors/terminal.vim
 !.Xdefaults
+!.pythonrc.py
